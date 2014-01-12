@@ -1,0 +1,41 @@
+PODS:
+  - BlocksKit (2.0.0):
+    - BlocksKit/All
+  - BlocksKit/All (2.0.0):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.0.0)
+  - BlocksKit/DynamicDelegate (2.0.0):
+    - libffi
+  - BlocksKit/MessageUI (2.0.0):
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.0.0):
+    - BlocksKit/DynamicDelegate
+  - IRKit (1.0.1):
+    - ISHTTPOperation (~> 1.1.0)
+    - Reachability (~> 3.1.1)
+  - ISHTTPOperation (1.1.1)
+  - libffi (3.0.13)
+  - Reachability (3.1.1)
+  - TMCache (1.2.0)
+
+DEPENDENCIES:
+  - BlocksKit (~> 2.0.0)
+  - IRKit (from `https://github.com/irkit/ios-sdk.git`)
+  - TMCache (~> 1.2.0)
+
+EXTERNAL SOURCES:
+  IRKit:
+    :git: https://github.com/irkit/ios-sdk.git
+
+SPEC CHECKSUMS:
+  BlocksKit: b29ee3f28ba06a09f5c64987314ce5b75b2c3962
+  IRKit: 6bfbc86ef312ab0f9609af7ddea3e675c28527eb
+  ISHTTPOperation: 6268956d564f3cab0584838e996f2f4520d903b2
+  libffi: 64ef39353e747bb2b25e1026afd96a157bf9231c
+  Reachability: be4883bb93f31e38266ae3365e5600a317aae735
+  TMCache: 4b05e1b124d9f7e8d449640e059cff4cda17ed27
+
+COCOAPODS: 0.29.0

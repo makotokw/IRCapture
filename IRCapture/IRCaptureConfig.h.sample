@@ -1,0 +1,2 @@
+// https://github.com/irkit/ios-sdk
+static NSString *kIRAppKey = @"#{ fill in your apikey }";
