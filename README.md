@@ -3,6 +3,9 @@ IRCapture
 
 The developer tools for [IRKit](http://getirkit.com/).
 
+[![](https://dl.dropboxusercontent.com/u/8932138/screenshot/IRCapture/IRCapture_01_300x432.png)](https://dl.dropboxusercontent.com/u/8932138/screenshot/IRCapture/IRCapture_01.png)
+[![](https://dl.dropboxusercontent.com/u/8932138/screenshot/IRCapture/IRCapture_02_300x432.png)](https://dl.dropboxusercontent.com/u/8932138/screenshot/IRCapture/IRCapture_02.png)
+
 ## Requirements
 
 * [IRKit](http://getirkit.com/) Device
