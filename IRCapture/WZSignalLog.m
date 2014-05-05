@@ -84,7 +84,7 @@
 
 - (NSDate *)date
 {
-    return (_signal.receivedDate.timeIntervalSince1970 > 0) ? _signal.receivedDate : _date;
+    return _date;
 }
 
 - (NSString *)description

@@ -56,14 +56,14 @@
         [self presentViewController:vc
                            animated:YES
                          completion:^{
-                             [me startCapture];
+                             [me startCapturing];
                          }];
     } else {
-        [self startCapture];
+        [self startCapturing];
     }
 }
 
-- (void)startCapture
+- (void)startCapturing
 {
     if ([IRKit sharedInstance].countOfReadyPeripherals == 0) {
         return;
@@ -91,7 +91,7 @@
     _httpClient = nil;
     __weak WZMasterViewController *me = self;
     [self bk_performBlock:^(id obj) {
-        [me startCapture];
+        [me startCapturing];
     } afterDelay:1];
 }
 
