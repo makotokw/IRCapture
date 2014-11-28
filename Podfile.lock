@@ -1,41 +1,43 @@
 PODS:
-  - BlocksKit (2.2.2):
-    - BlocksKit/All
-  - BlocksKit/All (2.2.2):
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
     - BlocksKit/MessageUI
     - BlocksKit/UIKit
-  - BlocksKit/Core (2.2.2)
-  - BlocksKit/DynamicDelegate (2.2.2)
-  - BlocksKit/MessageUI (2.2.2):
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
-  - BlocksKit/UIKit (2.2.2):
+  - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
   - IRKit (1.0.1):
     - ISHTTPOperation (~> 1.1.0)
-    - Reachability (~> 3.1.1)
   - ISHTTPOperation (1.1.1)
-  - Reachability (3.1.1)
-  - TMCache (1.2.0)
+  - TMCache (1.2.2)
 
 DEPENDENCIES:
   - BlocksKit (~> 2.2.0)
-  - IRKit (from `https://github.com/irkit/ios-sdk.git`, commit `45e0d59`)
+  - IRKit (from `https://github.com/irkit/ios-sdk.git`, commit `f8b60954a3cf7fe068fa696565c1bb43260ee5ca`)
   - TMCache (~> 1.2.0)
 
 EXTERNAL SOURCES:
   IRKit:
-    :commit: 45e0d59
+    :commit: f8b60954a3cf7fe068fa696565c1bb43260ee5ca
+    :git: https://github.com/irkit/ios-sdk.git
+
+CHECKOUT OPTIONS:
+  IRKit:
+    :commit: f8b60954a3cf7fe068fa696565c1bb43260ee5ca
     :git: https://github.com/irkit/ios-sdk.git
 
 SPEC CHECKSUMS:
-  BlocksKit: 125e4e69a62e3b85bacc5175737dae000b00b9fb
-  IRKit: 25e4fe5c0430b40b6b39e10317877206140d4303
-  ISHTTPOperation: 6268956d564f3cab0584838e996f2f4520d903b2
-  Reachability: be4883bb93f31e38266ae3365e5600a317aae735
-  TMCache: 4b05e1b124d9f7e8d449640e059cff4cda17ed27
+  BlocksKit: 4439e7f30a9f90743462ca63545a15c1f4304cef
+  IRKit: e43a77203a82ab93cbeeb4c1a8a485ff673de856
+  ISHTTPOperation: dfc268703df15b98667c1d8bef9dcd60b6205195
+  TMCache: e2c9225de7a107b529d1d04baa58eb5eab3051f3
 
-COCOAPODS: 0.32.1
+COCOAPODS: 0.35.0

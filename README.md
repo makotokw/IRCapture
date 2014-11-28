@@ -8,9 +8,9 @@ The developer tools for [IRKit](http://getirkit.com/).
 
 ## Requirements
 
-* [IRKit](http://getirkit.com/) Device
-* [IRKit](http://getirkit.com/) ApiKey
-* [CocoaPods](http://cocoapods.org/)
+* IRKit Device
+* IRKit API Key ([Get API key](https://github.com/irkit/ios-sdk#get-api-key))
+* [CocoaPods](http://cocoapods.org/) 0.35+
 
 ## Setup
 
@@ -22,7 +22,7 @@ pod install
 open IRCapture.xcworkspace
 ```
 
-Edit IRCapture/IRCaptureConfig.h to set your ApiKey before xcode executes build. 
+Please edit ``IRCaptureConfig.h`` file to set your API Key before run.
 
 ## License
 
